@@ -1,0 +1,13 @@
+.output-box {
+    background: #111;
+    color: #0f0;
+    padding: 15px;
+    height: 300px;
+    overflow-y: scroll;
+    font-family: monospace;
+    border-radius: 5px;
+}
+
+input {
+    margin-bottom: 8px;
+}
