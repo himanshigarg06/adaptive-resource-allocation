@@ -1,31 +1,56 @@
+/* ===== Dark Cool Theme ===== */
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f6f8;
-    margin: 40px;
-    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    margin: 0;
+    padding: 40px;
+    color: #e0e0e0;
 }
 
 h1 {
     text-align: center;
-    color: #2c3e50;
-    margin-bottom: 30px;
+    color: #00e6ff;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
 }
 
 section {
-    background-color: #ffffff;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background: rgba(20, 20, 20, 0.85);
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+section:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.8);
 }
 
 h2 {
-    color: #34495e;
+    color: #00c3ff;
+    margin-bottom: 10px;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 6px;
 }
 
 footer {
     text-align: center;
-    margin-top: 40px;
-    color: #666;
+    margin-top: 50px;
+    color: #b0b0b0;
     font-size: 14px;
+    opacity: 0.8;
 }
