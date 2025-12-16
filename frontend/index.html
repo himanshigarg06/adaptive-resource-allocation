@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adaptive Resource Allocation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Adaptive Resource Allocation in Multiprogramming Systems</h1>
+
+<section>
+    <h2>Project Overview</h2>
+    <p>
+        This project demonstrates how an operating system can dynamically
+        allocate CPU time and memory resources based on real-time process behaviour.
+    </p>
+</section>
+
+<section>
+    <h2>System Architecture</h2>
+    <ul>
+        <li><b>Monitoring Module:</b> Observes CPU usage, memory usage, and page faults</li>
+        <li><b>Decision Module:</b> Decides scheduling and memory adjustments</li>
+        <li><b>Allocation Module:</b> Applies adaptive CPU and memory changes</li>
+    </ul>
+</section>
+
+<section>
+    <h2>CPU Scheduling</h2>
+    <p>
+        The system uses Dynamic Round Robin scheduling.
+        Time quantum is adjusted based on whether a process is CPU-bound
+        or I/O-bound, and ageing is used to prevent starvation.
+    </p>
+</section>
+
+<section>
+    <h2>Memory Allocation</h2>
+    <p>
+        Memory is allocated using the Working Set Model combined with
+        Page Fault Frequency to avoid thrashing and memory wastage.
+    </p>
+</section>
+
+<footer>
+    <p>B.Tech CSE – Operating Systems Project</p>
+</footer>
+
+</body>
+</html>
