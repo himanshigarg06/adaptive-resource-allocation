@@ -1,3 +1,8 @@
+// Page Fault Frequency (PFF) thresholds
+// If page faults exceed the upper threshold, the process is not getting enough frames
+// If page faults are below the lower threshold, the process has more frames than needed
+// This dynamic adjustment helps prevent thrashing and memory wastage
+
 #ifndef MEMORY_H
 #define MEMORY_H
 
