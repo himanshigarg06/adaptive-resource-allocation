@@ -1,3 +1,6 @@
+// Dynamic quantum adjustment based on process behaviour
+// CPU-bound processes get larger quantum to reduce context switches
+
 #ifndef SCHEDULER_H
 #define SCHEDULER_H
 
