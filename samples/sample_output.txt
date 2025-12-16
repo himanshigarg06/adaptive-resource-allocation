@@ -1,0 +1,27 @@
+=== Adaptive Resource Allocation Simulation ===
+
+[TIME 0] Running Process P1 | Quantum: 8
+   [MON] PID: 1 | Remaining: 17 | Frames: 4 | PFF: 3
+
+[TIME 8] Running Process P2 | Quantum: 3
+   [MEM] P2 high PFF → +2 frames
+   [MON] PID: 2 | Remaining: 12 | Frames: 6 | PFF: 9
+
+[TIME 11] Running Process P3 | Quantum: 8
+   [MEM] P3 high PFF → +2 frames
+   [MON] PID: 3 | Remaining: 22 | Frames: 6 | PFF: 9
+
+[TIME 19] Running Process P4 | Quantum: 3
+   [MON] PID: 4 | Remaining: 15 | Frames: 4 | PFF: 7
+
+[TIME 22] Running Process P1 | Quantum: 8
+   [MEM] P1 low PFF → -1 frame
+   [MON] PID: 1 | Remaining: 9 | Frames: 3 | PFF: 0
+
+[TIME 30] Running Process P2 | Quantum: 3
+   [MON] PID: 2 | Remaining: 9 | Frames: 6 | PFF: 3
+
+[TIME 33] Running Process P3 | Quantum: 8
+   [MEM] P3 high PFF → +2 frames
+   [MON] PID: 3 | Remaining: 14 | Frames: 8 | PFF: 9
+   
