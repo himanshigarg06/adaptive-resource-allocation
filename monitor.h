@@ -1,3 +1,8 @@
+
+// Monitoring Module
+// Continuously observes process execution state
+// Displays remaining CPU burst, allocated frames, and page fault count
+// Helps the decision module take real-time adaptive actions
 #ifndef MONITOR_H
 #define MONITOR_H
 
