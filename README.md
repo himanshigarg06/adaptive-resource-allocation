@@ -16,6 +16,15 @@ its decisions using continuous monitoring.
 - Continuous monitoring and logging
 - Frontend page for visualization
 
+## Simulation Visualization
+The backend simulation runs as a C++ program and produces
+execution logs in the terminal.
+
+For demonstration purposes, the frontend includes a
+visual simulation log that represents this backend execution
+in a terminal-style interface. This helps in understanding
+CPU scheduling and memory allocation behaviour visually.
+
 ## Technologies Used
 - C++ (Backend simulation)
 - HTML & CSS (Frontend visualization)
@@ -38,3 +47,4 @@ Project Structure
 │   └── style.css
 ├── README.md
 └── .gitignore
+
